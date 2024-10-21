@@ -3,7 +3,8 @@ import {
   IconBrandGithub,
   IconBrandX,
   IconHelpCircle,
-  IconQuestionMark
+  IconQuestionMark,
+  IconHeadset,
 } from "@tabler/icons-react"
 import Link from "next/link"
 import { FC, useState } from "react"
@@ -35,21 +36,21 @@ export const ChatHelp: FC<ChatHelpProps> = ({}) => {
           <div className="flex space-x-2">
             <Link
               className="cursor-pointer hover:opacity-50"
-              href="https://inzhenerka.tech"
+              href="https://t.me/inzhenerkatech_support"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <IconBrandX />
+              <IconHeadset />
             </Link>
 
-            <Link
+            {/* <Link
               className="cursor-pointer hover:opacity-50"
               href="https://github.com/Inzhenerka/doodoo-ai"
               target="_blank"
               rel="noopener noreferrer"
             >
               <IconBrandGithub />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="flex space-x-2">

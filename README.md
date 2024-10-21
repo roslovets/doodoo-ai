@@ -1,4 +1,4 @@
-# Doodoo AI
+# Doudou AI
 
 The open-source AI chat app for learning.
 
